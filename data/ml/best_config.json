@@ -1,0 +1,62 @@
+{
+  "USDC": {
+    "best_f2": {
+      "technique": "WeightOnly",
+      "model": "XGB",
+      "f2": 0.9056,
+      "f2_std": 0.196,
+      "recall": 0.9,
+      "precision": 0.975,
+      "auc_pr": 0.9399
+    },
+    "best_recall": {
+      "technique": "EasyEnsemble",
+      "model": "EasyEnsemble",
+      "recall": 0.9333,
+      "f2": 0.5883,
+      "precision": 0.2383
+    },
+    "best_auc_pr": {
+      "technique": "Baseline",
+      "model": "RF",
+      "auc_pr": 0.9595
+    },
+    "best_f1": {
+      "technique": "WeightOnly",
+      "model": "XGB",
+      "f1": 0.92,
+      "precision": 0.975,
+      "recall": 0.9
+    }
+  },
+  "DAI": {
+    "best_f2": {
+      "technique": "ADASYN",
+      "model": "XGB",
+      "f2": 0.878,
+      "f2_std": 0.0403,
+      "recall": 0.9052,
+      "precision": 0.7878,
+      "auc_pr": 0.9386
+    },
+    "best_recall": {
+      "technique": "EasyEnsemble",
+      "model": "EasyEnsemble",
+      "recall": 0.9923,
+      "f2": 0.8421,
+      "precision": 0.5331
+    },
+    "best_auc_pr": {
+      "technique": "SMOTE_05",
+      "model": "XGB",
+      "auc_pr": 0.9416
+    },
+    "best_f1": {
+      "technique": "Baseline",
+      "model": "RF",
+      "f1": 0.8477,
+      "precision": 0.8885,
+      "recall": 0.8178
+    }
+  }
+}
